@@ -1,0 +1,46 @@
+- The Selfish Short-sightedness Epidemic
+	- Capitalism, Democracy and the Cult of the Individual
+		- The Wisdom Drought and the Manipulatable Masses
+			- Failure of the Education System
+		- The False Scarcity Mentality and Living to Work
+		- The Misalignment of the Profit Motive to the greater good 
+	- Empathy Double-Think 
+	- The Banality of Evil
+	- Moloch, The Tragedy of the Commons, and the Prisoners' Dilemma
+- Language Traps and Their Risks
+	- False Dichotomies
+		- Generalization and Id Pol
+		- The Group vs The Individuals
+	- False Zero-sum Games
+		- Individuals vs the Commons
+	- Fault and Responsibility
+	- Free Will and Circumstances
+	- The information overload (flood the zone)
+-  The AI-Bomb
+	- The Breaking of the Social Contract and the Education System 
+	- The information overload (flood the zone)
+	- A Powerful Tool Used the Wrong Way
+	- Techno-feudalism
+	- 
+- The Resulting Socio-Political State of Things
+	- Putting the Wrong People in Charge
+	- Wealth Inequality and The Unsubstantiated Scarcity Mentality
+	- Checks and Balances my Ass
+	- 
+- Tentative Solutions
+	- The Commons and it's Solvable Tragedy
+		- Robert Axelrod Study on the prisonner's dilemma
+		- https://www.youtube.com/watch?v=CYlon2tvywA
+	- Publicization of "Infrastructure"
+	- Decentralization of the Public Sector
+		- AI
+		- Using Blockchain the Right Way
+		- Recursive small governance groups
+			- - https://www.youtube.com/watch?v=CYlon2tvywA
+	- Education Reform
+		- AI
+		- Critical Thinking
+
+Where?: 
+La socialisation du risque et la privatisation des gains
+Comment la valeur économique est devenu un proxy pour la valeur humaine (Mérite, Compétence dans tout les sujets, Poids des opinions)

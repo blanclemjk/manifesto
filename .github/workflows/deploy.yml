@@ -34,7 +34,8 @@ jobs:
       - name: Copy Vault Content
         run: |
           # Clean existing content to remove theme defaults
-          rm -rf hugo/content/*
+          rm -rf hugo/content
+          mkdir -p hugo/content
 
           # Create root _index.md to redirect or list vaults
           echo "---" > hugo/content/_index.md

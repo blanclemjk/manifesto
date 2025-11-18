@@ -1,0 +1,3 @@
+[submodule "hugo/themes/amethyst"]
+	path = hugo/themes/amethyst
+	url = https://github.com/64bitpandas/amethyst.git

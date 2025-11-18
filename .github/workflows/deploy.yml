@@ -75,6 +75,7 @@ jobs:
         run: |
           cd hugo
           mkdir -p assets/indices
+          mkdir -p static
           go install github.com/jackyzha0/hugo-obsidian@latest
           export PATH=$PATH:$(go env GOPATH)/bin
           hugo-obsidian -input=content -output=assets/indices -index -root=.

@@ -1,0 +1,32 @@
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = 'My Obsidian Site'
+theme = 'amethyst'
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.93.0"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+
+[params]
+  # Amethyst Theme Configuration
+  name = "My Site"
+  enableLinkPreview = true
+  enableLatex = true
+  enableCodeBlockTitle = true
+  enableCodeBlockCopy = true
+  enableCallouts = true
+  enableFooter = true
+  enableContextualBacklinks = true
+  enableMermaid = true
+  
+  # Navigation
+  BookSection = "/" # Render all sections to menu
+  BookToC = true

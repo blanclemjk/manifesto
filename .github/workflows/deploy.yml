@@ -50,6 +50,11 @@ jobs:
           # Create destination directory for Vault M
           mkdir -p hugo/content/M
 
+          # Create _index.md for M to ensure it's treated as a section
+          echo "---" > hugo/content/M/_index.md
+          echo "title: M" >> hugo/content/M/_index.md
+          echo "---" >> hugo/content/M/_index.md
+
           # Copy contents of M to hugo/content/M
           # We use -r to copy recursively
           if [ -d "M" ]; then
@@ -58,6 +63,12 @@ jobs:
           else
             echo "Warning: Directory M not found"
           fi
+
+          # Remove theme content to prevent it from showing up
+          rm -rf hugo/themes/amethyst/content
+
+          # Debug: List content directory
+          ls -R hugo/content
 
           # Placeholder for second vault (Uncomment and update name when ready)
           # mkdir -p hugo/content/Vault2

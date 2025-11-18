@@ -28,14 +28,14 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.120.4'
+          hugo-version: "0.120.4"
           extended: true
 
       - name: Copy Vault Content
         run: |
           # Create destination directory for Vault M
           mkdir -p hugo/content/M
-          
+
           # Copy contents of M to hugo/content/M
           # We use -r to copy recursively
           if [ -d "M" ]; then
@@ -44,12 +44,27 @@ jobs:
           else
             echo "Warning: Directory M not found"
           fi
-          
+
           # Placeholder for second vault (Uncomment and update name when ready)
           # mkdir -p hugo/content/Vault2
           # if [ -d "Vault2" ]; then
           #   cp -r Vault2/* hugo/content/Vault2/
           # fi
+
+      - name: Ensure Front Matter
+        run: |
+          find hugo/content -name "*.md" | while read file; do
+            if ! head -n 1 "$file" | grep -q "^---$"; then
+              filename=$(basename "$file" .md)
+              echo "Adding front matter to $file"
+              # Create temp file with front matter
+              echo "---" > "${file}.tmp"
+              echo "title: \"$filename\"" >> "${file}.tmp"
+              echo "---" >> "${file}.tmp"
+              cat "$file" >> "${file}.tmp"
+              mv "${file}.tmp" "$file"
+            fi
+          done
 
       - name: Build
         run: |

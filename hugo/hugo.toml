@@ -1,6 +1,6 @@
 baseURL = 'https://blanclemjk.github.io/manifesto/'
 languageCode = 'en-us'
-title = 'My Obsidian Site'
+title = 'Manifesto'
 theme = 'amethyst'
 
 [module]
@@ -17,7 +17,7 @@ theme = 'amethyst'
 
 [params]
   # Amethyst Theme Configuration
-  name = "My Site"
+  name = "Manifesto"
   enableLinkPreview = true
   enableLatex = true
   enableCodeBlockTitle = true

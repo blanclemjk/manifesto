@@ -1,0 +1,21 @@
+- La canonisation de l'emploi
+- La socialisation du risque et la privatisation des gains
+- Comment la valeur d'actif est devenu un proxy pour la valeur humaine (Mérite, Compétence dans tout les sujets, Poids des opinions)
+- Le mythe de la compétition: La vaste majorité des marchés ne peuvent survivre dans un environnement compétitif - L'échec de l'éducation: les citoyens non pas les outils oratoires ni connaissance des raccourcis intellectuels.
+- Les problèmes de la démocratie 1.0. Place a la 2.0
+- Les loyalistes: les prolétaire qui défende leur tourmenteur riches
+- L'aveuglement de la classe moyenne: La classe moyenne qui se croit plus proche des riches que des pauvres
+- L'inertie conservatrice de la classe moyennes
+- Le sens de la vie défini par les autres (autant en personnes que réseau sociaux)
+- La sur simplification des problèmes complexe: Comment l'homme cherchant a tout simplifier ramène toujours tout a l'argent (retour sur comment l'argent est un proxy pour la valeur humaine). Implique aussi les Notes a l'école pour donner une valeur a l'élève , la religions pour expliquer facilement le monde, etc.
+- La capital: L'incapacité des sociétés a extraire le capital des riches. Les société sont expertes pour extraire le revenus (travail avec valeurs ajouter) mais échoue complètement sur l'extraction du capital.
+- L'état providence non capitaliste dans un marché capitaliste (comment les statistique économique sont "nerf" par un état providence fort même si la valeur ajouté est la même pour un système public que privé, ex: le PIB)
+- Nous ne sommes pas dans un marché libre
+- La subventions des pauvres par la classe moyennes
+- La diabolisation des groupes
+- Le cynisme de la démocratie par le manque de transparence
+- L'anxiété, la peur et l'angoisse des esprits libres
+- l'épidémie du "holier than thou"
+- La glorification du passé ( Vieux: L'éducation et les valeurs; Jeune: vie plus facile avant avec aucun défi) et la démonisation du présent (Vieux: les jeunes sont paresseux et mal éduquer; Jeune: pire conditions de vie qu'avant)
+- Le culte de la personnes démocratisé (au lieu d'avoir quelque humain vénéré et "rare", il est maintenant normal d'être "populaire" et connu)
+- Rien n'est vrai

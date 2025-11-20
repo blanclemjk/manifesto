@@ -87,6 +87,18 @@ jobs:
           # Debug: List content directory
           ls -R hugo/content
 
+      - name: Ensure Section Indices
+        run: |
+          find hugo/content -mindepth 1 -type d -not -path '*/.*' | while read dir; do
+            if [ ! -f "$dir/_index.md" ]; then
+              dirname=$(basename "$dir")
+              echo "Creating _index.md for $dir"
+              echo "---" > "$dir/_index.md"
+              echo "title: \"$dirname\"" >> "$dir/_index.md"
+              echo "---" >> "$dir/_index.md"
+            fi
+          done
+
       - name: Ensure Front Matter
         run: |
           find hugo/content -name "*.md" | while read file; do

@@ -1,3 +1,8 @@
+---
+weight: 10
+title: "Table of Contents"
+---
+
 - La canonisation de l'emploi
 - La socialisation du risque et la privatisation des gains
 - Comment la valeur d'actif est devenu un proxy pour la valeur humaine (Mérite, Compétence dans tout les sujets, Poids des opinions)

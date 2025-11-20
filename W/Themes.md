@@ -1,7 +1,8 @@
 - La canonisation de l'emploi
 - La socialisation du risque et la privatisation des gains
 - Comment la valeur d'actif est devenu un proxy pour la valeur humaine (Mérite, Compétence dans tout les sujets, Poids des opinions)
-- Le mythe de la compétition: La vaste majorité des marchés ne peuvent survivre dans un environnement compétitif - L'échec de l'éducation: les citoyens non pas les outils oratoires ni connaissance des raccourcis intellectuels.
+- Le mythe de la compétition: La vaste majorité des marchés ne peuvent survivre dans un environnement compétitif 
+- L'échec de l'éducation: les citoyens non pas les outils oratoires ni connaissance des raccourcis intellectuels.
 - Les problèmes de la démocratie 1.0. Place a la 2.0
 - Les loyalistes: les prolétaire qui défende leur tourmenteur riches
 - L'aveuglement de la classe moyenne: La classe moyenne qui se croit plus proche des riches que des pauvres

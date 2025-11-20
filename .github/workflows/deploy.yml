@@ -54,7 +54,10 @@ jobs:
           # Create _index.md for M to ensure it's treated as a section
           echo "---" > hugo/content/M/_index.md
           echo "title: M" >> hugo/content/M/_index.md
+
           echo "---" >> hugo/content/M/_index.md
+          echo "" >> hugo/content/M/_index.md
+          echo "{{< section >}}" >> hugo/content/M/_index.md
 
           # Copy contents of M to hugo/content/M
           # We use -r to copy recursively
@@ -71,7 +74,10 @@ jobs:
           # Create _index.md for W to ensure it's treated as a section
           echo "---" > hugo/content/W/_index.md
           echo "title: W" >> hugo/content/W/_index.md
+
           echo "---" >> hugo/content/W/_index.md
+          echo "" >> hugo/content/W/_index.md
+          echo "{{< section >}}" >> hugo/content/W/_index.md
 
           # Copy contents of W to hugo/content/W
           if [ -d "W" ]; then
@@ -96,6 +102,8 @@ jobs:
               echo "---" > "$dir/_index.md"
               echo "title: \"$dirname\"" >> "$dir/_index.md"
               echo "---" >> "$dir/_index.md"
+              echo "" >> "$dir/_index.md"
+              echo "{{< section >}}" >> "$dir/_index.md"
             fi
           done
 

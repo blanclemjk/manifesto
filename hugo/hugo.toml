@@ -1,6 +1,6 @@
 baseURL = 'https://blanclemjk.github.io/manifesto/'
 languageCode = 'en-us'
-title = 'My Obsidian Site'
+title = 'M&W Manifesto'
 theme = 'amethyst'
 
 [module]
@@ -17,7 +17,7 @@ theme = 'amethyst'
 
 [params]
   # Amethyst Theme Configuration
-  name = "My Site"
+  name = "M&W Manifesto"
   enableLinkPreview = true
   enableLatex = true
   enableCodeBlockTitle = true
@@ -30,3 +30,13 @@ theme = 'amethyst'
   # Navigation
   BookSection = "/" # Render all sections to menu
   BookToC = true
+
+  # Overrides for Amethyst theme defaults
+  links = []
+  GitHubLink = "https://github.com/blanclemjk/manifesto"
+
+[menu]
+  [[menu.after]]
+    name = "Github"
+    url = "https://github.com/blanclemjk/manifesto"
+    weight = 10

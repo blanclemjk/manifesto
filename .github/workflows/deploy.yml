@@ -46,6 +46,7 @@ jobs:
           echo "Select a vault to browse:" >> hugo/content/_index.md
           echo "" >> hugo/content/_index.md
           echo "- [M](M/)" >> hugo/content/_index.md
+          echo "- [W](W/)" >> hugo/content/_index.md
 
           # Create destination directory for Vault M
           mkdir -p hugo/content/M
@@ -53,7 +54,10 @@ jobs:
           # Create _index.md for M to ensure it's treated as a section
           echo "---" > hugo/content/M/_index.md
           echo "title: M" >> hugo/content/M/_index.md
+          echo "bookCollapseSection: true" >> hugo/content/M/_index.md
           echo "---" >> hugo/content/M/_index.md
+          echo "" >> hugo/content/M/_index.md
+          echo "{{< section >}}" >> hugo/content/M/_index.md
 
           # Copy contents of M to hugo/content/M
           # We use -r to copy recursively
@@ -64,17 +68,45 @@ jobs:
             echo "Warning: Directory M not found"
           fi
 
+          # Create destination directory for Vault W
+          mkdir -p hugo/content/W
+
+          # Create _index.md for W to ensure it's treated as a section
+          echo "---" > hugo/content/W/_index.md
+          echo "title: W" >> hugo/content/W/_index.md
+          echo "bookCollapseSection: true" >> hugo/content/W/_index.md
+          echo "---" >> hugo/content/W/_index.md
+          echo "" >> hugo/content/W/_index.md
+          echo "{{< section >}}" >> hugo/content/W/_index.md
+
+          # Copy contents of W to hugo/content/W
+          if [ -d "W" ]; then
+            cp -r W/* hugo/content/W/
+            echo "Copied W vault content"
+          else
+             echo "Warning: Directory W not found"
+          fi
+
           # Remove theme content to prevent it from showing up
           rm -rf hugo/themes/amethyst/content
 
           # Debug: List content directory
           ls -R hugo/content
 
-          # Placeholder for second vault (Uncomment and update name when ready)
-          # mkdir -p hugo/content/Vault2
-          # if [ -d "Vault2" ]; then
-          #   cp -r Vault2/* hugo/content/Vault2/
-          # fi
+      - name: Ensure Section Indices
+        run: |
+          find hugo/content -mindepth 1 -type d -not -path '*/.*' | while read dir; do
+            if [ ! -f "$dir/_index.md" ]; then
+              dirname=$(basename "$dir")
+              echo "Creating _index.md for $dir"
+              echo "---" > "$dir/_index.md"
+              echo "title: \"$dirname\"" >> "$dir/_index.md"
+              echo "bookCollapseSection: true" >> "$dir/_index.md"
+              echo "---" >> "$dir/_index.md"
+              echo "" >> "$dir/_index.md"
+              echo "{{< section >}}" >> "$dir/_index.md"
+            fi
+          done
 
       - name: Ensure Front Matter
         run: |

@@ -2,8 +2,11 @@
 	- Capitalism, Democracy and the Cult of the Individual
 		- The Wisdom Drought and the Manipulatable Masses
 			- Failure of the Education System
-		- The False Scarcity Mentality and Living to Work
-		- The Misalignment of the Profit Motive to the greater good 
+		- Privatizing the Gains and Socializing the Costs
+		- The Misalignment of the Profit Motive to the greater good
+			- https://www.youtube.com/watch?v=zmqTZH8PAFo
+		- The False Scarcity Mentality and Living to Work 
+		- The Laffer curve
 	- Empathy Double-Think 
 	- The Banality of Evil
 	- Moloch, The Tragedy of the Commons, and the Prisoners' Dilemma
@@ -29,6 +32,7 @@
 	- 
 - Tentative Solutions
 	- The Commons and it's Solvable Tragedy
+		- Aligning Individuality with Community: Not a Zero-sum Game
 		- Robert Axelrod Study on the prisonner's dilemma
 		- https://www.youtube.com/watch?v=CYlon2tvywA
 	- Publicization of "Infrastructure"
@@ -40,6 +44,7 @@
 	- Education Reform
 		- AI
 		- Critical Thinking
+		- Linguistics, Game theory, Criticality theory and their implications
 
 Where?: 
 La socialisation du risque et la privatisation des gains
